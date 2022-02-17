@@ -18,4 +18,4 @@ If you specify the `UPDATE` env var (set it to anything) the container will upda
 By default this image is configured to output to a [Snapserver](https://github.com/IVData/dockerfiles/tree/master/snapserver) for use in [Mopidy-Multiroom](https://github.com/IVData/dockerfiles/tree/master/mopidy-multiroom). If you'd like to output audio to a regular device, you can edit the config file and follow the instructions inside under 'audio'.
 
 
-`docker run --rm -p 6680:6680 -p 6600:6600 -v /tmp/snapcast:/tmp/snapcast -v /mopidy/data/folder:/home/mopidy/.conifg/mopidy ivdata/mopidy`
+`docker run --rm -p 6680:6680 -p 6600:6600 -v /tmp/snapcast:/tmp/snapcast -v /mopidy/data/folder:/home/mopidy/.config/mopidy ivdata/mopidy`
